@@ -1,0 +1,119 @@
+
+   .hero-section1 {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,7,41,1) 82%, rgba(121,0,255,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 200px;
+  }
+  
+  .hero-section1-content {
+    color: white;
+    max-width: 500px;
+  }
+  
+  .hero-section1 h1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #000000;
+  }
+  
+  .hero-section1 h2 {
+    color: #00ffff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #000000;
+  }
+  
+  .hero-section1-button {
+    background-color: navy;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+    margin-right: 20px;
+  }
+  
+  .hero-section1-button:hover {
+    background-color: #001f3f;
+  }
+  
+  .price-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    margin-top: 110px;
+  }
+  
+  .price-container p {
+    display: flex;
+    align-items: center;
+  }
+  
+  .price-container p:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    /* background-image: url(ICON_URL); */
+    background-size: contain;
+  }
+  
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    margin-left: 40px;
+    overflow: hidden;
+    height: fit-content;
+    width: 350px;
+  }
+  
+  .card-title {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .card-graph {
+    background-color: white;
+    height: 200px;
+    position: relative;
+  }
+  
+  .card-button {
+    background-color: #f50057;
+    border: none;
+    border-radius: 0;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .card-button:hover {
+    background-color: #ff4081;
+  }
+  
