@@ -12,7 +12,7 @@ function Header() {
           <li className="header__item"><a href="#">Market</a></li>
           <li className="header__item"><a href="#">Exchange</a></li>
           <li className="header__item"><a href="#">Wallet</a></li>
-          <li className="header__item"><a href="#">Login</a></li>
+          {/* <li className="header__item"><a href="#">Login</a></li> */}
         </ul>
       </nav>
     </header>
