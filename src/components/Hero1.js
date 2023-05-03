@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBitcoinSign, faBolt } from '@fortawesome/free-solid-svg-icons';
 import { faEthereum } from '@fortawesome/free-brands-svg-icons';
 import Card from './Card';
 import './Hero1.css';
 
+
+
 const HeroSection1 = () => {
+
   return (
     <section className="hero-section1">
       <div className="hero-section1-content">
